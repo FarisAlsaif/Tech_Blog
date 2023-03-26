@@ -1,4 +1,4 @@
-<p style="font-size:32px;">Tech Blog Website</p>
+<p style="font-size:64px;">Tech Blog Website</p>
 
 <p>This repository contains the code for a tech blog website built using HTML and CSS. The website features blog posts on various technology-related topics, along with a clean and modern design.</p>
 
