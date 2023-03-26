@@ -14,7 +14,7 @@
 
 <h2 style="font-size:28px;">Styles</h2>
 
-<p>The website has been designed with a modern and sleek style, with a focus on readability and usability. The color scheme is primarily shades of blue and gray, with accents of orange for highlights. The typography has been carefully selected to be easy to read on both desktop and mobile devices.</p>
+<p>The website has been designed with a modern and sleek style, with a focus on readability and usability. The color scheme is primarily shades of purple and gray, with accents of some custom colors for highlights. The typography has been carefully selected to be easy to read on both desktop and mobile devices.</p>
 
 <h2 style="font-size:28px;">Customization</h2>
 
