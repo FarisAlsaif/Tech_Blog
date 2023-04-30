@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new_stylesheet.css">
+    <link 
+    href='https://cdn.jsdelivr.net/npm/froala-editor@latest/css/froala_editor.pkgd.min.css' 
+    rel='stylesheet' 
+    type='text/css' />
+   
+    <title>Document</title>
+</head>
+<body>
+    <header class="page_ends">
+        <div class="grid-container">
+          <div class="item1"><a  href="index.html" class="techBT">Tech blog</a></div>
+      
+          <div class="item2">
+                <select id="techST">
+              <option value="">عربي</option>
+              <option value="">ُEnglish</option>
+            </select>
+          </div>
+      
+        </div>
+      
+          </header>
+    <main>
+      <form action="">
+      <h2>  Create an article</h2>
+<p><label >Title &nbsp;</label><input required type="text" ></p>
+
+<p><label>Author&nbsp;</label><input type="text"value="Admin" ></p>
+
+<p><label>Description </label>&nbsp;<input required></input></p>
+
+
+<p>  <label for="C">Content</label>
+  <textarea
+    class="Content"
+    name="C"
+    id="content"
+    cols="15"
+    rows="10"
+  ></textarea>	</p>
+
+<p><label for="C">Arabic Content</label>
+  <textarea
+    class="Arabic Content"
+    name="C"
+    id="C"
+    cols="15"
+    rows="10"
+  ></textarea>
+
+<input onclick="validateForm(this)" class="button" type="submit" value="Create" />
+
+</form>
+
+
+    </main>
+    <footer class="page_ends">
+        <p>	&copy; The <a  class="techBT">Tech blog</a> 2023 created by 222-SWE-363 Student</p>
+        </footer>
+
+        <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/froala-editor@latest/js/froala_editor.pkgd.min.js"
+      ></script>
+      <script>
+        new FroalaEditor("textarea");
+      </script>
+       <script  src="forntendJS.js"></script>
+</body>
+</html>
+

@@ -1,19 +1,8 @@
 body{
     font-family: helvetica;
 }
-#intro{
-    font-size: 50px;
-}
-#by_admin{
-    background: #efeffa;
-    padding: 6px;
-}
-h3{
-    color: #6D64FF;
-}
-
-
 .page_ends{
+
     position: sticky;
     padding: 20px ;
     margin: 0px;
@@ -21,6 +10,9 @@ h3{
     background-color: #efeffa;
     text-align: center;
   
+}
+.text{
+    margin: 30px 10px;
 }
 .techBT{
 
@@ -31,6 +23,11 @@ h3{
     padding: 8px;
     border-radius: 2rem;
     font-size: large;
+
+  
+}
+#language-option{
+    text-align: right ;
     
 }
 .grid-container{
@@ -49,12 +46,54 @@ h3{
     justify-content: center; /*center horizontaly*/
     align-items: center; /*center vertically*/
 }
-table,th,td{
-    border: 1px solid #efeffa;
-    border-collapse: collapse;
+.container_2{
+    position: relative;
+    top: -300px;
+    left: 550px;
 }
-th{
-    background-color: #efeffa;
+.title{
+    font-size: large;
+   
+}
+
+a{
+    color: #efeffa;
+    border: 3px solid #6d64ff;
+    border-radius: 1rem;
+    padding: 12px;
+    margin: 10px;
+    text-decoration: none;
+    
+}
+a:hover{
+    box-shadow: 5px 5px #6d64ff;
+}
+.black_btn{
+    background-color: #313042;
+
+}
+.red_btn{
+    background-color: #CF1512;
+    
+}
+.purple_btn{
+    background-color: #6D64FF;
+    border-color: #313042;
+}
+.description{
+
+    color: #6d64ff;
+    text-align: right;
+}
+.article_container{
+    display: flex;
+    flex-direction: row;
+  
+    border-left: 2px solid #6d64ff;
+    border-bottom: 2px solid #6d64ff;
+    border-bottom-left-radius: 15px;
+    margin: 10px;
+    padding: 10px;
 }
 .like-plus{
 
@@ -64,7 +103,8 @@ th{
     border-radius: 1rem;
     padding: 10px;
 
-   bottom: 200px;
+   bottom: 10px;
+   /* right: 50px; */
    right: 10px;
     
     width: 100px;
@@ -77,13 +117,24 @@ th{
     left: 90px;
     color: #efeffa;
 }
+.article_icons{
+    background-color: #efeffa;
+    padding: 0px 0px;
+    text-align: center;
+    margin:0;
+
+}
+.icons-p{
+    margin: 0px ;
+    padding-top: 0px;
+    
+}
+.icons-hr{
+    margin: 0px;
+}
 
 
-
-
-
-
-
+/* rules of the responsive design */
 
 @media  screen and (min-width: 992px) {
 
@@ -107,6 +158,12 @@ th{
         margin: auto;
         max-width: 560px;
        
+    }
+    .welcome_text{
+    
+        position: relative;
+        top: -400px;
+        left: -400px;
     }
 
 }
